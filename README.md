@@ -7,7 +7,7 @@ In this repository I experiment with various preprocessors to build a well-perfo
 ## Datasets referenced in this repository can be downloaded from my Dropbox [here](https://www.dropbox.com/sh/4i7vncum9q73d2z/AABEC7tLOA-7TefUYS81wHrza?dl=0). Notebooks expect input datasets to be in a folder called "data_uncompressed".
 
 ### Input datasets (/data_uncompressed)
-* Every input dataset contains opinions from cases which appear in the citation network for the corpus (that is, every such case cites or is cited by at least one other case in the corpus)
+* Every input dataset contains opinions from cases which appear in the largest connected component of the citation network for the corpus (that is, every such case cites or is cited by at least one other case in the corpus)
 * Each of the raw datasets with 12k rulings is contained in the /data_uncompressed/raw_data_12k folder.
     - random_cases2_raw.csv: contains 4000 opinions randomly sampled from each of the jurisdictions of Arkansas, Illinois, and New Mexico; no restrictions are placed on decision date
     - cases_IL_12k_raw.csv: contains 12000 opinions randomly sampled from the Illinois jurisdiction; no restrictions are placed on decision date

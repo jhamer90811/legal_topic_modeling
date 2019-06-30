@@ -2,7 +2,7 @@
 
 This work was done while a fellow with [Insight Data Science](https://www.insightdatascience.com/), in consultation with [Ping](https://www.timebyping.com/).
 
-In this repository we experiment with various preprocessors to build a well-performing topic model (using [gensim's](https://radimrehurek.com/gensim/) LDA model) from public-record court rulings downloaed from [The Caselaw Access Project](https://case.law). Success is measured primarily by coherence, but we also compute perplexity, and a custom validation metric based on the network of citations among legal documents is also computed.
+In this repository I experiment with various preprocessors to build a well-performing topic model (using [gensim's](https://radimrehurek.com/gensim/) LDA model) from public-record court rulings downloaed from [The Caselaw Access Project](https://case.law). Success is measured primarily by coherence, but I also compute perplexity, and a custom validation metric based on the network of citations among legal documents is also computed.
 
 ## Datasets referenced in this repository can be downloaded from my Dropbox [here](https://www.dropbox.com/sh/4i7vncum9q73d2z/AABEC7tLOA-7TefUYS81wHrza?dl=0). Notebooks expect input datasets to be in a folder called "data_uncompressed".
 
